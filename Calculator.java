@@ -1,21 +1,21 @@
 public class Calculator {
 
-    // Method to add two numbers
+    // add two numbers
     public static double add(double a, double b) {
         return a + b;
     }
 
-    // Method to subtract two numbers
+    // subtract two numbers
     public static double subtract(double a, double b) {
         return a - b;
     }
 
-    // Method to multiply two numbers
+    //  multiply two numbers
     public static double multiply(double a, double b) {
         return a * b;
     }
 
-    // Method to divide two numbers
+    // divide two numbers
     public static double divide(double a, double b) {
         if (b == 0) {
             throw new IllegalArgumentException("Cannot divide by zero");
@@ -23,12 +23,12 @@ public class Calculator {
         return a / b;
     }
 
-    // Method to calculate power
+    // calculate power
     public static double power(double base, double exponent) {
         return Math.pow(base, exponent);
     }
 
-    // Method to calculate square root
+    //  calculate square root
     public static double squareRoot(double a) {
         if (a < 0) {
             throw new IllegalArgumentException("Cannot calculate square root of a negative number");
