@@ -1,7 +1,7 @@
 # Code Snippets Repository
 
 ## Overview
-This repository contains a collection of reusable code snippets for various calculations, focusing primarily on a basic calculator and geometry-related calculations. The snippets included are designed to be easily copied and pasted for quick use in your own projects.
+Basic starter codes, learning to code.
 
 ## Contents
 
@@ -76,12 +76,14 @@ import math
 def circle_perimeter(radius):
     return 2 * math.pi * radius
 ```
+#### Mode+ Median
+
+Function: finding mode and median from given numbers
 
 ## Usage
-Simply copy any of the code snippets above and paste them into your codebase or development environment. Make sure to import any necessary libraries, such as `math` for geometric calculations.
+idkizzy
 
-## Contributions
-Feel free to contribute more code snippets by submitting a pull request! This will help enhance the collection and keep it up to date with various programming needs.
+
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License 
