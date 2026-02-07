@@ -1,7 +1,7 @@
 # Code Snippets Repository
 
 ## Overview
-Basic starter codes, learning to code.
+Basic starter codes, learning to code
 
 ## Contents
 
@@ -14,7 +14,7 @@ This section includes code snippets for the following basic calculator functions
 
 #### Addition
 ```python
-# Function to add two numbers
+#  add two numbers
 
 def add(x, y):
     return x + y
@@ -22,7 +22,7 @@ def add(x, y):
 
 #### Subtraction
 ```python
-# Function to subtract two numbers
+#  subtract two numbers
 
 def subtract(x, y):
     return x - y
@@ -30,7 +30,7 @@ def subtract(x, y):
 
 #### Multiplication
 ```python
-# Function to multiply two numbers
+# multiply two numbers
 
 def multiply(x, y):
     return x * y
@@ -38,7 +38,7 @@ def multiply(x, y):
 
 #### Division
 ```python
-# Function to divide two numbers
+#  divide two numbers
 
 def divide(x, y):
     if y == 0:
@@ -54,7 +54,7 @@ def divide(x, y):
 
 #### Perimeter of a Rectangle
 ```python
-# Function to calculate the perimeter of a rectangle
+# calculate the perimeter of a rectangle
 
 def rectangle_perimeter(length, width):
     return 2 * (length + width)
@@ -62,7 +62,7 @@ def rectangle_perimeter(length, width):
 
 #### Perimeter of a Triangle
 ```python
-# Function to calculate the perimeter of a triangle
+# calculate the perimeter of a triangle
 
 def triangle_perimeter(a, b, c):
     return a + b + c
@@ -70,7 +70,7 @@ def triangle_perimeter(a, b, c):
 
 #### Perimeter of a Circle
 ```python
-# Function to calculate the perimeter (circumference) of a circle
+# calculate the perimeter (circumference) of a circle
 import math
 
 def circle_perimeter(radius):
@@ -78,7 +78,7 @@ def circle_perimeter(radius):
 ```
 #### Mode+ Median
 
-Function: finding mode and median from given numbers
+finding mode and median from given numbers
 
 ## Usage
 idkizzy
