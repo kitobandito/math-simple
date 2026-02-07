@@ -22,13 +22,13 @@ function findMode(numbers) {
     return modes;
 }
 
-// Function to find the median of an array of numbers
+//  find the median of an array of numbers
 function findMedian(numbers) {
     numbers.sort((a, b) => a - b); // Sort the numbers
     const mid = Math.floor(numbers.length / 2);
 
     if (numbers.length % 2 === 0) {
-        // If even, return the average of the two middle numbers
+        // if even return the average of the two middle numbers
         return (numbers[mid - 1] + numbers[mid]) / 2;
     } else {
         // If odd, return the middle number
@@ -36,7 +36,7 @@ function findMedian(numbers) {
     }
 }
 
-// Example usage:
+// example usage
 const numbers = [1, 2, 2, 3, 4];
 console.log('Mode:', findMode(numbers)); // Mode: [2]
 console.log('Median:', findMedian(numbers)); // Median: 2
