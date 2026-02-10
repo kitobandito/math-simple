@@ -1,10 +1,10 @@
-// Function to find the mode of an array of numbers
+// find the mode of an array of numbers
 function findMode(numbers) {
     const frequency = {};
     let maxFreq = 0;
     let modes = [];
 
-    // Count the frequency of each number
+    // count the frequency of each number
     numbers.forEach((num) => {
         frequency[num] = (frequency[num] || 0) + 1;
         if (frequency[num] > maxFreq) {
@@ -12,7 +12,7 @@ function findMode(numbers) {
         }
     });
 
-    // Extract numbers that match the maximum frequency
+    // extract numbers that match the maximum frequency
     for (const num in frequency) {
         if (frequency[num] === maxFreq) {
             modes.push(Number(num));
@@ -36,7 +36,4 @@ function findMedian(numbers) {
     }
 }
 
-// example usage
-const numbers = [1, 2, 2, 3, 4];
-console.log('Mode:', findMode(numbers)); // Mode: [2]
-console.log('Median:', findMedian(numbers)); // Median: 2
+
