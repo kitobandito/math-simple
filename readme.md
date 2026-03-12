@@ -5,7 +5,7 @@ Basic codes -java, js
 
 ## Contents
 
-### Basic Calculator Operations
+### Basic calculator operations
 
 - addition
 - subtraction
