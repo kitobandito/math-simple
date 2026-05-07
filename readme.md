@@ -1,11 +1,11 @@
 
 
-## Overview
+## overview
 Basic codes -java, js
 
-## Contents
+## contents
 
-### Basic calculator operations
+### basic calc operations
 
 - addition
 - subtraction
